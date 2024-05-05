@@ -1,5 +1,4 @@
-import React from "react";
-import { CgDanger } from "react-icons/cg";
+import Link from "next/link";
 
 function Calculator() {
   return (
@@ -98,7 +97,9 @@ function Calculator() {
             </div>
 
             <button className="flex items-center my-2 text-purple-50 border border-purple-50  rounded-xl px-3 py-2 bg-purple-950 hover:bg-purple-700 ease-in-out duration-200  hover:text-purple-100 ">
-              <span className="mx-5 text-[12px]"> درخواست وام </span>
+              <Link href="/login">
+                <span className="mx-5 text-[12px]"> درخواست وام </span>
+              </Link>
             </button>
           </div>
         </div>

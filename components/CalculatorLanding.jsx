@@ -1,4 +1,4 @@
-import Script from "next/script";
+import Link from "next/link";
 function CalculatorLanding() {
   return (
     <div
@@ -60,7 +60,9 @@ function CalculatorLanding() {
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
-          درخواست وام
+          <Link href="/login">
+            <span> درخواست وام </span>
+          </Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
