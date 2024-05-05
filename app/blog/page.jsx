@@ -1,5 +1,13 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 const blog = () => {
-  return <div>blog</div>;
+  return (
+    <>
+      <Navbar />
+      <div className="h-screen"></div>
+      <Footer />
+    </>
+  );
 };
 
 export default blog;

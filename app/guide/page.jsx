@@ -1,5 +1,13 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 const Guide = () => {
-  return <div>Guide</div>;
+  return (
+    <>
+      <Navbar />
+      <div className="h-screen"></div>
+      <Footer />
+    </>
+  );
 };
 
 export default Guide;

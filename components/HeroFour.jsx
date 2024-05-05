@@ -4,7 +4,7 @@ function HeroFour() {
   return (
     <div className="container mx-auto rounded-3xl bg-purple-50 flex flex-col sm:flex-row sm:my-4 justify-between items-center px-10 shadow-md m-6">
       <div className="flex justify-center items-center flex-col flex-1 ">
-        <h3 className="text-purple-900 text-2xl font-bold">
+        <h3 className="text-purple-900 text-2xl font-bold mt-10">
           برای وام چه مدارکی لازمه؟
         </h3>
         <button

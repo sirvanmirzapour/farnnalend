@@ -1,8 +1,8 @@
 const InfoCards = () => {
   return (
     <section>
-      <div className="container-xl lg:container m-auto">
-        <div className="container flex justify-center m-8">
+      <div className="container mx-auto">
+        <div className="container flex justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -26,7 +26,7 @@ const InfoCards = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 rounded-lg">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-4 rounded-lg">
           <div className="bg-purple-50 text-purple-950 p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const InfoCards = () => {
               پرداخت کنید
             </p>
           </div>
-          <div className="bg-purple-50 text-purple-950 p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
+          <div className="bg-purple-50 text-purple-950 p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ const InfoCards = () => {
               فرنالند پرداخت کنید
             </p>
           </div>
-          <div className="bg-purple-50 text-purple-950 p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
+          <div className="bg-purple-50 text-purple-950 p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -117,7 +117,7 @@ const InfoCards = () => {
               شده و نتیجه اعلام می‌شود
             </p>
           </div>
-          <div className="bg-purple-50 text-purple-950 p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
+          <div className="bg-purple-50 text-purple-950 p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -135,7 +135,7 @@ const InfoCards = () => {
               استفاده کنید
             </p>
           </div>
-          <div className="bg-purple-50 text-purple-950 p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
+          <div className="bg-purple-50 text-purple-950 p-8 rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 ease-in-out duration-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
